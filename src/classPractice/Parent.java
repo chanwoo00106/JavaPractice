@@ -19,4 +19,7 @@ public class Parent {
 	public void printAge() {
 		System.out.println(this.age);
 	}
+	public void sayHello() {
+		System.out.println("Hello " + this.name + "!");
+	}
 }

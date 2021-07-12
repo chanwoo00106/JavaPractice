@@ -1,6 +1,6 @@
-package classPractice;
+package methodPractice;
 
-public class Main {
+public class Method {
 	
 	String name;
 	
@@ -9,11 +9,11 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		Main a = new Main();
+		Method a = new Method();
 		a.setName("Âù¿ì");
 		System.out.println(a.name);
 		//==================================
-		Main b = new Main();
+		Method b = new Method();
 		b.setName("Teemo");
 		System.out.println(b.name);
 	}
