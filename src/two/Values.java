@@ -3,15 +3,15 @@ package two;
 public class Values {
 
 	public static void main(String[] args) {
-		int num = 88;// ¼ıÀÚ
-		String str = "¹®ÀÚ¿­"; // ¹®ÀÚ¿­
-		double fl = 72.4; // ½Ç¼ö
+		int num = 88;// ìˆ«ì
+		String str = "ë¬¸ìì—´"; // ë¬¸ìì—´
+		double fl = 72.4; // ì‹¤ìˆ˜
 		boolean TF = true;  // true/false
-		
-		
-		System.out.println("¼ıÀÚ : " + num);
-		System.out.println("¹®ÀÚ¿­ : " + str);
-		System.out.println("½Ç¼ö : " + fl);
+
+
+		System.out.println("ìˆ«ì : " + num);
+		System.out.println("ë¬¸ìì—´ : " + str);
+		System.out.println("ì‹¤ìˆ˜ : " + fl);
 		System.out.println("true&false : " + TF);
 	}
 

@@ -10,7 +10,7 @@ public class Method {
 	
 	public static void main(String[] args) {
 		Method a = new Method();
-		a.setName("Âù¿ì");
+		a.setName("chanwoo");
 		System.out.println(a.name);
 		//==================================
 		Method b = new Method();
