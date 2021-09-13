@@ -1,5 +1,7 @@
 package chap04;
 
+//this.와 this()
+
 class Circle {
     double radius;
     String color;
@@ -7,8 +9,7 @@ class Circle {
     Circle() {}
 
     Circle(String color){
-        this.color = color;
-        this.radius = 3.1415927585;
+        this(3.141592653589793238, color);
     }
 
     Circle(double radius, String color){
@@ -16,8 +17,9 @@ class Circle {
         this.color = color;
     }
     Circle(double radius){
-        this.radius = radius;
-        this.color = "검정";
+//        this.radius = radius;
+//        this.color = "검정";
+        this(radius, "초록");
     }
 
     void print() {
