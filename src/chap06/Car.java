@@ -1,8 +1,8 @@
 package chap06;
 
 public class Car extends Vehicle{
-    int displacement;
-    int gears;
+    static int displacement;
+    static int gears;
 
     public Car(String color, int speed, int displacement, int gears) {
         super(color, speed);
@@ -10,7 +10,7 @@ public class Car extends Vehicle{
         this.gears = gears;
     }
 
-    void show() {
+    static void show() {
         System.out.println("color : " + color + ", speed : " + speed + ", displacement : " + displacement + ", gears : " + gears);
     }
 }
