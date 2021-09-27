@@ -7,5 +7,6 @@ public class StudentTest {
 
         System.out.printf("%s %s %s\n", s.name, s.ssn, s.hakbun);
         System.out.printf("%s %s %s\n", s1.name, s1.ssn, s1.hakbun);
+        s.fall();
     }
 }

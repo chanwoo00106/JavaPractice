@@ -8,5 +8,7 @@ public class Student1 extends People{
         this.hakbun = hakbun;
     }
 
-
+    void fall() {
+        System.out.println("나는 사람이면서 학생입니다");
+    }
 }

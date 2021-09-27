@@ -9,5 +9,7 @@ public class People {
         this.ssn = ssn;
     }
 
-
+    void fall() {
+        System.out.println("나는 사람입니다.");
+    }
 }
