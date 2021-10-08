@@ -9,7 +9,7 @@ public class Cone extends Circle11{
     }
 
     @Override
-    double findArea() {
+    public double findArea() {
         return Math.round((PI * r * Math.sqrt((r * r) + (h * h))) + (PI * (r * r)));
     }
 }

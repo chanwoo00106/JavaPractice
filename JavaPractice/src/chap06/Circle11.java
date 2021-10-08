@@ -8,7 +8,7 @@ public class Circle11 {
         this.r = r;
     }
 
-    double findArea() {
+    public double findArea() {
         return Math.round(PI * (r * r));
     }
 }

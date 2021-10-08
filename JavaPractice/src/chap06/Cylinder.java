@@ -9,7 +9,7 @@ public class Cylinder extends Circle11{
     }
 
     @Override
-    double findArea() {
+    public double findArea() {
         return Math.round((2 * PI * r * r) + (2 * PI * r * h));
     }
 }

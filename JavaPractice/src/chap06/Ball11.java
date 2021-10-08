@@ -6,7 +6,7 @@ public class Ball11 extends Circle11{
     }
 
     @Override
-    double findArea() {
+    public double findArea() {
         return Math.round(4 * PI * (r * r));
     }
 }
