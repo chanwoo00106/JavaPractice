@@ -25,12 +25,10 @@ class Ptera implements Dinosaur{
 
 public class DinosaurTest {
     public static void main(String[] args) {
-        T_Rex t = new T_Rex();
-        Ptera p = new Ptera();
-
-        t.cry();
-        t.Walk();
-        p.cry();
-        p.fly();
+        Dinosaur[] d = {new T_Rex(), new Ptera()};
+        d[0].cry();
+        ((T_Rex)d[0]).Walk();
+        d[1].cry();
+        ((Ptera)d[1]).fly();
     }
 }
