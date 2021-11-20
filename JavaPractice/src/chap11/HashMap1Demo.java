@@ -1,28 +1,22 @@
 package chap11;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
 public class HashMap1Demo {
     public static void main(String[] args) {
-        Map<String, Integer> m = new HashMap<>();
+        ArrayList<Integer> li = new ArrayList<>();
 
-        m.put("사과", 5);
-        m.put("바나나", 3);
-        m.put("포도", 10);
-        m.put("딸기", 1);
+        for (int i = 0; i < 10; i++) li.add(i);
 
-        System.out.println(m.size()+"종류의 과일이 있습니다.");
+        Collections.shuffle(li);
+//        System.out.println(li);
 
-        for (String key:m.keySet())
-            System.out.println(key+"가 "+m.get(key)+"개 있습니다.");
-
-        String key = "바나나";
-        if (m.containsKey(key))
-            System.out.println(key+"가 "+m.get(key)+"개 있습니다.");
-        m.remove("사과");
-        System.out.println("사과를 없앤 후 과일은 "+m.size()+"종류입니다.");
-        m.clear();
-        System.out.println("모두 없앤 후 과일은 "+m.size()+"종류입니다.");
+//        System.out.println(Collections.binarySearch(li, 5));
+        Collections.sort(li);
+        System.out.println(li);
+        System.out.println(Collections.binarySearch(li, 5));
     }
 }
